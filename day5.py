@@ -1,6 +1,9 @@
 import os
 import numpy as np
 import matplotlib.pyplot as plt
+plt.rcParams['font.sans-serif']=['SimHei']
+plt.rcParams['font.family']='sans-serif'
+plt.rcParams['axes.unicode_minus']=False
 
 data_path = './data/bikeshare/'
 data_filenames = ['2017-q1_trip_history_data.csv', '2017-q2_trip_history_data.csv',
